@@ -23,7 +23,8 @@ setup(name='numismatic',
       install_requires=REQUIREMENTS,
       python_requires='~=3.6',
       extras_require={
-        'SQL': ['sqlalchemy'],
+        'SqlCollector': ['sqlalchemy'],
+        'DataframeCollector': ['pandas'],
         },
       zip_safe=False,
       entry_points='''
